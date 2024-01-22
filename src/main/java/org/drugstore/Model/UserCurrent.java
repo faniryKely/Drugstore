@@ -4,14 +4,11 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.Date;
 @Getter
 @Setter
 @AllArgsConstructor
-public class User {
+public class UserCurrent {
     private int Id;
-    private String Name;
-    private String Firstname;
     private String EmailAdress;
-
+    private String Password;
 }
